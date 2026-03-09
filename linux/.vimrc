@@ -1,6 +1,3 @@
-" Load Arch Linux default settings
-runtime! archlinux.vim
-
 syntax on
 filetype plugin indent on
 
