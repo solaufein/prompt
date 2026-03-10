@@ -7,6 +7,7 @@ set number                   " Show line numbers
 "set mouse=a                  " Enable mouse support in all modes
 set clipboard=unnamedplus     " Use system clipboard for copy/paste
 set termguicolors            " Use true colors 
+":colorscheme catppuccin_mocha  " Enable Catppuccin colors (it has to be installed first)
 
 " --- Indentation ---
 "set expandtab                " Use spaces instead of tabs
