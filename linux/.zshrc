@@ -122,7 +122,12 @@ alias l='eza --icons -lah'
 
 export JAVA_HOME=/usr/lib/jvm/default
 
+# fzf
+# new shortcuts: ctrl+r, ctrl+t, alt+c
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
+# p10k
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
