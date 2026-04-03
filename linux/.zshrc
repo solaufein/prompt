@@ -118,6 +118,7 @@ source $ZSH/oh-my-zsh.sh
 alias s='git status'
 alias ff='fastfetch'
 alias ls='eza'
+alias ll='eza --icons -lh'
 alias l='eza --icons -lah'
 
 export JAVA_HOME=/usr/lib/jvm/default
