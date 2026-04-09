@@ -3,11 +3,18 @@ configuration {
   font: "MesloLGS Nerd Font 14";
   icon-theme: "Papirus";
   show-icons: true;
+  display-drun: "❯";
 }
 
 @import "catppuccin-mocha"
 
 * {
+  g-spacing: 10px;
+  g-margin: 0;
+  b-radius: 8px;
+  g-padding: 8px;
+  w-border: 2px solid;
+  w-padding: 12px;
   selected-active-foreground:  @background;
   lightfg:                     @text;
   separatorcolor:              @foreground;
@@ -37,10 +44,12 @@ configuration {
 
 }
 element {
-    padding: 1px ;
+    spacing: @g-spacing;
+    margin: @g-margin;
+    padding: @g-padding;
+    border-radius: @b-radius;
+    border: 0px solid;
     cursor:  pointer;
-    spacing: 5px ;
-    border:  0;
 }
 element normal.normal {
     background-color: @normal-background;
@@ -93,27 +102,31 @@ element-icon {
 window {
     padding:          5;
     background-color: @background;
-    border:           1;
+    border-color:     Gray;
+    border:           @w-border;
+    border-radius:    @b-radius;
 }
 mainbox {
-    padding: 0;
+    spacing: @g-spacing;
+    margin: @g-margin;
+    padding: @g-padding;
     border:  0;
 }
 message {
-    padding:      1px ;
+    padding:      1px;
     border-color: @separatorcolor;
-    border:       2px dash 0px 0px ;
+    border:       2px dash 0px 0px;
 }
 textbox {
     text-color: @foreground;
 }
 listview {
     padding:      2px 0px 0px ;
-    scrollbar:    true;
+    scrollbar:    false;
     border-color: @separatorcolor;
-    spacing:      2px ;
+    spacing:      1px ;
     fixed-height: 0;
-    border:       2px dash 0px 0px ;
+    border:       0px dash 0px 0px ;
 }
 scrollbar {
     width:        4px ;
@@ -149,8 +162,8 @@ textbox-num-sep {
     text-color: Gray;
 }
 inputbar {
-    padding:    1px ;
-    spacing:    0px ;
+    padding:    10px;
+    spacing:    2px;
     text-color: @normal-foreground;
     children:   [ "prompt","textbox-prompt-colon","entry","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
 }
@@ -163,15 +176,15 @@ entry {
     cursor:            text;
     spacing:           0;
     placeholder-color: Gray;
-    placeholder:       "Type to filter";
+    placeholder:       "Search Apps";
 }
 prompt {
     spacing:    0;
-    text-color: @normal-foreground;
+    text-color: @red;
 }
 textbox-prompt-colon {
     margin:     0px 0.3000em 0.0000em 0.0000em ;
     expand:     false;
-    str:        ":";
+    str:        " ";
     text-color: inherit;
 }
