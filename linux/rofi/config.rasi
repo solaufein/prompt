@@ -3,7 +3,7 @@ configuration {
   font: "MesloLGS Nerd Font 14";
   icon-theme: "Papirus";
   show-icons: true;
-  display-drun: "❯";
+  display-drun: " ❯";
 }
 
 @import "catppuccin-mocha"
@@ -123,10 +123,11 @@ textbox {
 listview {
     padding:      2px 0px 0px ;
     scrollbar:    false;
-    border-color: @separatorcolor;
+    border-color: Gray;
     spacing:      1px ;
+    padding:      10px;
     fixed-height: 0;
-    border:       0px dash 0px 0px ;
+    border:       1px solid 0px 0px ;
 }
 scrollbar {
     width:        4px ;
