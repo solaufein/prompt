@@ -121,24 +121,23 @@ textbox {
     text-color: @foreground;
 }
 listview {
-    padding:      2px 0px 0px ;
     scrollbar:    false;
     border-color: Gray;
-    spacing:      1px ;
-    padding:      10px;
+    spacing:      1px;
+    padding:      @g-padding;
     fixed-height: 0;
-    border:       1px solid 0px 0px ;
+    border:       1px solid 0px 0px;
 }
 scrollbar {
-    width:        4px ;
+    width:        4px;
     padding:      0;
-    handle-width: 8px ;
+    handle-width: 8px;
     border:       0;
     handle-color: @normal-foreground;
 }
 sidebar {
     border-color: @separatorcolor;
-    border:       2px dash 0px 0px ;
+    border:       2px dash 0px 0px;
 }
 button {
     cursor:     pointer;
@@ -163,7 +162,7 @@ textbox-num-sep {
     text-color: Gray;
 }
 inputbar {
-    padding:    10px;
+    padding:    @g-padding;
     spacing:    2px;
     text-color: @normal-foreground;
     children:   [ "prompt","textbox-prompt-colon","entry","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
