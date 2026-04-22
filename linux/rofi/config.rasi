@@ -1,7 +1,7 @@
 configuration {
   modi: "drun";
   font: "MesloLGS Nerd Font 14";
-  icon-theme: "WhiteSur-dark";
+  icon-theme: "Papirus-Dark";
   show-icons: true;
   display-drun: " ❯";
 }
