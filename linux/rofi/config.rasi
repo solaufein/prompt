@@ -124,7 +124,7 @@ textbox {
 }
 listview {
     scrollbar:    false;
-    border-color: Black;
+    border-color: @background;
     spacing:      1px ;
     padding:      @g-padding;
     fixed-height: 0;
