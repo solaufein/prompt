@@ -15,6 +15,7 @@ configuration {
   g-padding: 8px;
   w-border: 1px solid;
   w-padding: 10px;
+  w-width: 35%;
   selected-active-foreground:  @background;
   lightfg:                     @text;
   separatorcolor:              @foreground;
@@ -100,6 +101,7 @@ element-icon {
     text-color:       inherit;
 }
 window {
+    width: 	      @w-width;
     padding:          @w-padding;
     background-color: @background;
     border-color:     Black;
