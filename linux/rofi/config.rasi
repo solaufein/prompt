@@ -104,7 +104,7 @@ window {
     width: 	      @w-width;
     padding:          @w-padding;
     background-color: @background;
-    border-color:     Black;
+    border-color:     @background;
     border:           @w-border;
     border-radius:    @b-radius;
 }
