@@ -1,0 +1,110 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 28,
+    "editor.letterSpacing": 0.2,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.smoothScrolling": true,
+    "editor.guides.indentation": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, monospace",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontLigatures": true,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize"
+    ],
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDelete": false,
+    "workbench.editor.empty.hint": "hidden",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "chat.viewSessions.orientation": "stacked",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorCustomizations": {
+        "[Dark Modern]": {
+            "editor.background": "#191A1C",
+            "editor.foreground": "#BCBEC3",
+            "editor.lineHighlightBackground": "#1F2024",
+            "editor.selectionBackground": "#273555",
+            "editorLineNumber.foreground": "#4C5058",
+            "editorLineNumber.activeForeground": "#A1A3AA",
+            "sideBar.background": "#191A1C",
+            "statusBar.background": "#26282C",
+            "titleBar.activeBackground": "#26282C",
+            "tab.activeBackground": "#273555",
+            "tab.inactiveBackground": "#191A1C",
+            "terminal.background": "#191A1C"
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Dark Modern]": {
+            "rules": {
+                "namespace": "#BCBEC3",
+                "namespace.defaultLibrary": "#BCBEC3",
+                "type": "#BCBEC3",
+                "type.defaultLibrary": "#8888C1",
+                "class": "#BCBEC3",
+                "class.declaration": "#BCBEC3",
+                "class.defaultLibrary": "#BCBEC3",
+                "interface": "#BCBEC3",
+                "struct": "#BCBEC3",
+                "enum": "#BCBEC3",
+                "typeParameter": "#BCBEC3",
+                "function": "#BCBEC3",
+                "method": "#BCBEC3",
+                "function.declaration": "#6BA6EF",
+                "method.declaration": "#6BA6EF",
+                "variable": "#BCBEC3",
+                "parameter": "#BCBEC3",
+                "property": "#BCBEC3",
+                "selfParameter": "#94558D",
+                "keyword": "#C59172",
+                "modifier": "#C59172",
+                "operator": "#BCBEC3",
+                "string": "#69A660",
+                "number": "#8888C1",
+                "comment": "#737781",
+                "decorator": "#A6A33A",
+                "function.decorator": "#A6A33A",
+                "method.decorator": "#A6A33A",
+                "class.decorator": "#A6A33A",
+                "type.decorator": "#A6A33A",
+                "variable.decorator": "#A6A33A"
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Dark Modern]": {
+            "comments": "#737781",
+            "strings": "#69A660",
+            "keywords": "#C59172",
+            "numbers": "#8888C1",
+            "functions": "#6BA6EF",
+            "variables": "#BCBEC3",
+            "types": "#BCBEC3",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "meta.function.decorator.python",
+                        "entity.name.function.decorator.python",
+                        "punctuation.definition.decorator.python"
+                    ],
+                    "settings": {
+                        "foreground": "#A6A33A",
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    }
+}
