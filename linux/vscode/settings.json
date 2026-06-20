@@ -25,6 +25,11 @@
     "workbench.editor.empty.hint": "hidden",
     "github.copilot.nextEditSuggestions.enabled": true,
     "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.aiCodeActions": {
+        "implementAbstractClasses": true,
+        "generateSymbol": true,
+        "convertFormatString": true
+    },
     "chat.viewSessions.orientation": "stacked",
     "git.confirmSync": false,
     "git.autofetch": true,
