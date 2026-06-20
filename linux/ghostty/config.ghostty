@@ -13,8 +13,6 @@ window-height = 40
 
 font-family = "JetBrainsMono Nerd Font"
 font-size = 14
-font-feature = liga
-font-feature = calt
 
 cursor-style = bar
 cursor-style-blink = false
