@@ -1,4 +1,5 @@
-theme = catppuccin-mocha.conf
+# theme = catppuccin-mocha.conf
+theme = Catppuccin Mocha
 
 background-opacity = 0.85
 window-padding-x = 15
