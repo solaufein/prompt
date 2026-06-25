@@ -12,7 +12,7 @@ window-height = 40
 # window-decoration = false
 # confirm-close-surface = false
 
-font-family = "JetBrainsMono Nerd Font"
+font-family = "JetBrainsMono Nerd Font Mono"
 font-size = 14
 
 cursor-style = bar
